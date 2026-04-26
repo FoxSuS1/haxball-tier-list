@@ -200,7 +200,7 @@
     'ohad','b3nz','flexbx','or','fuq','nevo_az','superbibi','snoobi','mr.lux','ohad'
   ];
  
-  let state = { S:[], A:[], B:[], C:[], D:[], לא_יודע:[], pool:[...PLAYERS] };
+  let state = { S:[], A:[], B:[], C:[], D:[], pool:[...PLAYERS] };
  
   function saveState() {
     try { localStorage.setItem('haxball_tl_v1', JSON.stringify(state)); } catch(e) {}
